@@ -3,7 +3,7 @@ int main()
 {
 FILE *cp;
 char ch;
-cp = fopen("M.txt", "m");
+cp = fopen("M.txt", "r");
 if(cp == NULL){
 printf("File could not be opened. \n");
 return 0;
