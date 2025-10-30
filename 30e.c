@@ -3,7 +3,7 @@ int main()
 {
     FILE *cp;
     char ch;
-    cp=fopen("m.txt", "v");
+    cp=fopen("m.txt", "r");
     if(cp == NULL)
     {
         printf("file is not there");
