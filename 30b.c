@@ -3,7 +3,7 @@ int main()
 {
  FILE *cp;
  char filename[50];
- cp=fopen("n.txt", "o");
+ cp=fopen("n.txt", "r");
  if(cp == NULL){
     printf("File is not found");
     return 0;
