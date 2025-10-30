@@ -4,7 +4,7 @@ int main()
     FILE *cp;
     char ch;
     int count = 0;
-    cp = fopen("r.txt" , "p");
+    cp = fopen("r.txt" , "r");
     if(cp == NULL){
         printf("file is not there");
         return 0;
